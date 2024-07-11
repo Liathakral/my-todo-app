@@ -2,12 +2,12 @@
 
 .task-list-container {
   margin-top: 20px;
-  width: 80%; /* Adjust width as per your layout */
-  margin: 0 auto; /* Center align the container */
-  border: 1px solid #ddd; /* Add a border for visual separation */
+  width: 80%; 
+  margin: 0 auto; 
+  border: 1px solid #ddd; 
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .task-list {
@@ -17,20 +17,20 @@
 
 .task-list h2 {
   margin-bottom: 10px;
-  color: #333; /* Adjust heading color */
-  font-size: 1.5rem; /* Adjust heading font size */
+  color: #333;
+  font-size: 1.5rem;
 }
 
 .task-item {
-  background-color: #f9f9f9; /* Light background color for each task item */
-  border: 1px solid #eee; /* Light border for each task item */
+  background-color: #f9f9f9; 
+  border: 1px solid #eee;
   padding: 10px;
   margin-bottom: 10px;
   border-radius: 4px;
 }
 
 .task-item:hover {
-  background-color: #f0f0f0; /* Darker background color on hover */
+  background-color: #f0f0f0; 
 }
 
 .task-actions {
@@ -38,24 +38,24 @@
 }
 
 .task-actions button {
-  margin-right: 8px; /* Add space between buttons */
+  margin-right: 8px; 
   cursor: pointer;
-  background-color: #007bff; /* Blue color for buttons */
-  color: #fff; /* White text color */
+  background-color: #007bff; 
+  color: #fff;
   border: none;
   padding: 6px 12px;
   border-radius: 4px;
-  transition: background-color 0.3s ease; /* Smooth background color transition */
+  transition: background-color 0.3s ease; 
 }
 
 .task-actions button:hover {
-  background-color: #0056b3; /* Darker blue color on hover */
+  background-color: #0056b3; 
 }
 
 .task-actions button.delete-btn {
-  background-color: #dc3545; /* Red color for delete button */
+  background-color: #dc3545;
 }
 
 .task-actions button.delete-btn:hover {
-  background-color: #c82333; /* Darker red color on hover */
+  background-color: #c82333; 
 }

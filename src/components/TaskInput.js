@@ -14,8 +14,8 @@ const TaskInput = () => {
     e.preventDefault();
     if (taskText.trim() !== '') {
       dispatch(addTask(taskText));
-      saveTasksToLocalStorage(); // Save tasks to local storage
-      setTaskText(''); // Clear input field after adding task
+      saveTasksToLocalStorage(); 
+      setTaskText(''); 
     }
   };
 

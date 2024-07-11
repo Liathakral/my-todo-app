@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom';
 
 import './index.css';
 import App from './App';
-import store from '../src/redux/store'; // Assuming your Redux store is configured in store.js or index.js
+import store from '../src/redux/store'; 
 
 import reportWebVitals from './reportWebVitals';
-import { Provider } from 'react-redux'; // Import Provider from react-redux
+import { Provider } from 'react-redux'; 
 
 ReactDOM.render(
   <Provider store={store}>

@@ -14,7 +14,7 @@ const initialState = {
         };
       case DELETE_TASK:
         const updatedTasks = state.tasks.filter(task => task.id !== action.payload);
-        localStorage.setItem('tasks', JSON.stringify(updatedTasks)); // Save updated tasks to local storage
+        localStorage.setItem('tasks', JSON.stringify(updatedTasks)); 
         return {
           ...state,
           tasks: updatedTasks,
